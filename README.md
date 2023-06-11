@@ -1,4 +1,12 @@
-# ES4X
+## AwesomeOS GraalVM Support via Eclipse Vert.x
+This Implements a AwesomeOS Infrastructure based on Vert.x running on GraalVM 
+Allows you to use ECMAScript and so also the Stealify Language on your JVM Deployments
+without additional code changes and Infrastructure Changes.
+
+So it allows you to Create and ship Java compatible Polyglot Stealify Lang Projects.
+As also use Nativ AwesomeOS bindings directly in JVM code. 
+
+# Historical ES4X
 
 This is the EcmaScript (5.1+) language support for [Eclipse Vert.x](http://vertx.io)
 
