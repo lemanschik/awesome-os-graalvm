@@ -19,3 +19,10 @@ this is mainly usefull for Quaternion DB and Oracle DB Interop and Integration a
 High trhoughput pipelines between both and function exchange. Mainly Allows you to 
 even Install AwesomeOS on Oracle Database Clusters and this way turn them into hybrid
 Quaternion DB Instances.
+
+## Bonus
+Automation and Integration with the Chromium Platform 
+As the chromium platform supports the text based devtools protocol this allows you to
+easy integrate and interop with existing browser installations like the Edge Browser used
+on windows or any other chromium based browser. If you would want you could even add
+support for other browser vendors.
