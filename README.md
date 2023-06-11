@@ -15,10 +15,10 @@ This project is a rewrite of ES4X but out of ECMAScript view. It trys to Impleme
 the exact same features but written in ECMAScript so it offers a ECMAScript es4x
 Interface to complement the Polyglot interop with GraalVM and the vert.x Ecosystem.
 
-this is mainly usefull for Quarternion and Oracle DB Interop and Integration as also 
+this is mainly usefull for Quaternion DB and Oracle DB Interop and Integration as also 
 High trhoughput pipelines between both and function exchange. Mainly Allows you to 
 even Install AwesomeOS on Oracle Database Clusters and this way turn them into hybrid
-Quarternion DB Instances. 
+Quaternion DB Instances. 
 
 # Historical ES4X
 
