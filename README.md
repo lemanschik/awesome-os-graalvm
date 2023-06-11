@@ -6,6 +6,15 @@ without additional code changes and Infrastructure Changes.
 So it allows you to Create and ship Java compatible Polyglot Stealify Lang Projects.
 As also use Nativ AwesomeOS bindings directly in JVM code. 
 
+## Why and How?
+There are a lot of ways to interop with jvm code but we needed the most performant with zero overhead.
+As also reuse our fast call abilitys and our sandboxing this offers also a way to incremental
+refactor your code to get less code that is more maintainable. 
+
+This project is a rewrite of ES4X but out of ECMAScript view. It trys to Implement
+the exact same features but written in ECMAScript so it offers a ECMAScript es4x
+Interface to complement the Polyglot interop with GraalVM and the vert.x Ecosystem.
+
 # Historical ES4X
 
 This is the EcmaScript (5.1+) language support for [Eclipse Vert.x](http://vertx.io)
