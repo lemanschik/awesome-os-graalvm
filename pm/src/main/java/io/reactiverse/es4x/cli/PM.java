@@ -60,7 +60,7 @@ public class PM {
           if (!GraalVMVersion.isGreaterOrEqual(wanted)) {
             String msg = "Runtime GraalVM version mismatch { wanted: [%s], provided: [%s] }%sFor installation help see: https://www.graalvm.org/docs/getting-started-with-graalvm/";
             if (fatal) {
-              fatal(String.format(msg, wanted, GraalVMVersion.version(), System.lineSeparator()));
+              warn(String.format(msg, wanted, GraalVMVersion.version(), System.lineSeparator()));
             } else {
               warn(String.format(msg, wanted, GraalVMVersion.version(), System.lineSeparator()));
             }
